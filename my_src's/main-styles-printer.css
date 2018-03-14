@@ -1,0 +1,93 @@
+	html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+		padding: 0;
+		margin: 0;
+		font-size: 100%;
+		font-weight: normal;
+		background: none;
+	 }
+     table { border-collapse: collapse; border-spacing: 0; }
+     td, th, caption { font-weight: normal; text-align: left; }
+     img, fieldset { border: 0; }
+	 ol { padding-left: 1.4em; list-style: decimal; }
+	 ul { padding-left: 1.4em; list-style: square; }
+	 q:before, q:after { content:''; }
+	 
+	 .majorText {
+       text-align: justify; 
+       text-indent: 20px;
+       margin: 0px;
+     }
+	 #myDocument {
+	  padding-left: 2cm;
+	  padding-top: 0.95cm;
+	  padding-right: 1.5cm;
+	  padding-bottom: 0.95cm;
+	  font-size: 10pt;
+	  top: 0px;
+	 }
+	 #myDocument h1 {
+	  text-align: center;
+	  font-weight: bold;
+	  font-size: 1em;
+	  margin-top: 1em;
+	 }
+	 #myDocument > h1:nth-child(3) {
+	  margin-top: 0;
+	 }
+	 .majorTextH1 {
+	  font-weight: bold;
+	 }
+	 .dogHat {
+	  margin-bottom: 1em;
+	  margin-left: auto;
+	  margin-right: auto;
+	 }
+	 #topPart, #header, #footer, #wrapper{
+		display: none;
+	 }
+	 
+	 .page_footer {
+		page-break-after: always;
+	 }
+	 
+ 
+	 #guys {
+	  display: none;
+	  position: fixed;
+	  right: 10px;
+	  top: 10px;
+	 }
+	 #guys ul {
+	  display: none;
+	  padding: 5px;
+	  list-style: none;
+	 }
+	 
+	 .majorTable {
+	  width: 100%;
+	 }
+	 
+	 .majorTable th, .majorTable td {
+	  border:1px solid black;
+	  padding: 3px;
+	 }
+	 
+	 .majorTable th, .majorTable th p {
+	  text-align: center;
+	  font-weight: bold;
+	 }
+	 
+	 .progDataC {
+	  border: 1px dashed black;
+	  margin: 2px;
+	 }
+	 
+	 fieldset {
+	  border: 1px solid black;
+	  margin: 2px;
+	  padding: 3px;
+	 }
+	 fieldset legend {
+	  font-weight: bold;	 
+	 }
+	 

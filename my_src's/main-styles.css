@@ -1,0 +1,122 @@
+	html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+		padding: 0;
+		margin: 0;
+		font-size: 100%;
+		font-weight: normal;
+	 }
+     table { border-collapse: collapse; border-spacing: 0; }
+     td, th, caption { font-weight: normal; text-align: left; }
+     img, fieldset { border: 0; }
+	 ol { padding-left: 1.4em; list-style: decimal; }
+	 ul { padding-left: 1.4em; list-style: square; }
+	 q:before, q:after { content:''; }
+     
+	 
+	 .majorText {
+       text-align: justify; 
+       text-indent: 20px;
+       margin: 0px;
+     }
+     
+	 body {
+	  background: url(../img/page_bg_b.jpg) no-repeat scroll center bottom #1d78d5;
+	 }
+	 
+	 #header {
+	  background: url(../img/page_bg_t.jpg) repeat-x scroll center top;
+	  display: block;
+	  width: 100%;
+	  height: 300px;
+
+	  z-index: 0;
+	 }
+	 
+	 
+	 #myDocument {
+	  width: 750px;
+	  margin: auto; 
+	  margin-bottom: 15%;
+	  padding: 20px 15px 15px;
+	  overflow: hidden;
+	  opacity: 0;
+	  display: none;
+	  background-color: #fff;
+	  padding: 10px;
+	  border-radius: 5px;
+  	  position: relative;
+  	  top: -150px;
+	 }
+	 #myDocument h1 {
+	  text-align: center;
+	  font-weight: bold;
+	  font-size: 1em;
+	  margin-top: 1em;
+	 }
+	 #myDocument > h1:nth-child(3) {
+	  margin-top: 0;
+	 }
+	 .majorTextH1 {
+	  font-weight: bold;
+	 }
+	 .dogHat {
+	  margin-bottom: 1em;
+	  margin-left: auto;
+	  margin-right: auto;
+	 }
+	 #topPart {
+	  width: 1024px;
+	  margin: auto; 
+	  margin-bottom: 15%;
+	  padding: 10px;
+	  background-color: #fff;
+	  border-radius: 5px;
+	  top: -150px;
+	  position: relative;
+	  z-index: 10;
+	 }
+	 
+	 #wrapper {
+	  width: 1024px;
+	  float: bottom;
+	  margin: auto;
+      z-index: 1;	  
+	 }
+	 
+	 #guys {
+	  position: fixed;
+	  right: 10px;
+	  top: 10px;
+	 }
+	 #guys ul {
+	  padding: 5px;
+	  list-style: none;
+	 }
+	 
+	 .majorTable {
+	  width: 100%;
+	 }
+	 
+	 .majorTable th, .majorTable td {
+	  border:1px solid black;
+	  padding: 3px;
+	 }
+	 
+	 .majorTable th, .majorTable th p {
+	  text-align: center;
+	  font-weight: bold;
+	 }
+	 
+	 .progDataC {
+	  border: 1px dashed black;
+	  margin: 2px;
+	 }
+	 
+	 fieldset {
+	  border: 1px solid black;
+	  margin: 2px;
+	  padding: 3px;
+	 }
+	 fieldset legend {
+	  font-weight: bold;	 
+	 }
+	 
